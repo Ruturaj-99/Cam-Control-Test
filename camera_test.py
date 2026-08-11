@@ -1,11 +1,3 @@
-"""
-VDMS CAMERA TEST - proof-of-concept
-
-Purpose: prove that a physical USB camera attached to a Windows PC can be
-opened, previewed, and captured programmatically, with the frame saved as a
-local JPG. Nothing else.
-"""
-
 import os
 import threading
 import datetime
@@ -30,13 +22,7 @@ REQUEST_W, REQUEST_H = 3840, 2160
 
 
 def list_cameras():
-    """Return [(index, name), ...] of attached camera devices.
-
-    Prefers real device names via pygrabber's DirectShow enumeration, whose
-    order matches OpenCV's camera indices on Windows in practice. Falls back
-    to probing indices 0-9 if that fails. Use the live preview to confirm
-    the right camera is selected.
-    """
+    
     try:
         from pygrabber.dshow_graph import FilterGraph
 
@@ -58,7 +44,7 @@ def list_cameras():
 
 
 class CameraStream:
-    """Background reader thread. Keeps the latest full-resolution frame."""
+    
 
     def __init__(self, index):
         self.index = index
