@@ -84,4 +84,3 @@ The architecture is considered viable only if all of these hold:
 - **Camera opens but no frames** — check
   *Settings → Privacy & security → Camera → "Let desktop apps access your
   camera"* is ON.
-#
