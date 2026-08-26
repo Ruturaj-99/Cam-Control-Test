@@ -1,4 +1,4 @@
-# VDMS Camera Test (Proof of Concept)
+# Cam Control Test (Proof of Concept)
 
 A minimal desktop app that proves one thing only:
 
