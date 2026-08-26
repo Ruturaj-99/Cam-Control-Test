@@ -6,9 +6,6 @@ A minimal desktop app that proves one thing only:
 > previewed, and captured **programmatically** by our own application, and the
 > frame saved locally as a JPG.
 
-This is **not** the VDMS application. There is no AWS, no OCR, no database,
-no login — by design.
-
 ## Requirements
 
 - Windows 10/11
