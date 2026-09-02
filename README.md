@@ -66,7 +66,6 @@ The architecture is considered viable only if all of these hold:
 
 - The camera is detected by Windows but the app cannot open it.
 - Captures intermittently fail or the preview freezes during long sessions.
-- The maximum negotiated resolution is too low to read card text.
 
 ## Troubleshooting
 
