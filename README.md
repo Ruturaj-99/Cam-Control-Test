@@ -13,14 +13,10 @@ A minimal desktop app that proves one thing only:
 - A physical USB (UVC) camera
 
 ## Setup
-
-```powershell
+in powershell
 pip install -r requirements.txt
-```
-
 ## Run
 
-```powershell
 python camera_test.py
 ```
 
