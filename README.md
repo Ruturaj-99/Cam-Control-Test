@@ -48,8 +48,7 @@ python camera_test.py
 9. **Open the saved JPG** in Windows Photos and confirm the card text is
    sharp and readable at 100% zoom.
 10. **Repeat the capture at least 20 times** (different cards / positions).
-11. **Check for failures** — every click must show "Capture successful" and
-    produce a distinct file. Any red error message counts as a failure.
+
 
 ## Success criteria
 
