@@ -11,7 +11,6 @@ A minimal desktop app that proves one thing only:
 - Windows 10/11
 - Python 3.10+ (tested with 3.13)
 - A physical USB (UVC) camera
-
 ## Setup
 in powershell
 pip install -r requirements.txt
@@ -65,9 +64,7 @@ The architecture is considered viable only if all of these hold:
 
 - The camera is detected by Windows but the app cannot open it.
 - Captures intermittently fail or the preview freezes during long sessions.
-
 ## Troubleshooting
-
 - **"No camera detected"** — check the USB connection, try another port,
   then click Refresh.
 - **"Could not open the camera"** — another app is probably using it
