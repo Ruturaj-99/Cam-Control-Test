@@ -310,7 +310,6 @@ class App:
             self.stream.stop()
         self.root.destroy()
 
-
 if __name__ == "__main__":
     root = tk.Tk()
     App(root)
