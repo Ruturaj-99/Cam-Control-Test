@@ -1,6 +1,6 @@
 # Cam Control Test (Proof of Concept)
 
-A minimal desktop app that proves one thing only:
+A minimal desktop app that proves only:
 
 > A physical USB camera connected to a Windows 10/11 PC can be opened,
 > previewed, and captured **programmatically** by our own application, and the
