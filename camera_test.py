@@ -288,7 +288,7 @@ class App:
 
         self.set_status("Capture successful", ok=True)
 
-    # ---------- helpers ----------
+    # ---------- helpers 
 
     def _to_tk_image(self, bgr_frame, max_w, max_h):
         h, w = bgr_frame.shape[:2]
