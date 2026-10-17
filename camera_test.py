@@ -7,7 +7,7 @@ from tkinter import ttk
 import cv2
 from PIL import Image, ImageTk
 
-# Hide OpenCV's console warnings emitted while probing camera indices.
+
 try:
     cv2.utils.logging.setLogLevel(cv2.utils.logging.LOG_LEVEL_ERROR)
 except Exception:
