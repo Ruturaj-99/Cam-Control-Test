@@ -188,7 +188,7 @@ class App:
         self.refresh_cameras()
         self.update_preview()
 
-    # ---------- camera handling ----------
+    # camera handling 
 
     def refresh_cameras(self):
         self.set_status("Detecting cameras...", ok=True)
