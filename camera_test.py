@@ -67,7 +67,7 @@ class CameraStream:
                 "Could not open the camera. It may be in use by another "
                 "application (Teams/Zoom/Camera app) or disconnected."
             )
-        # MJPG allows high resolutions at usable frame rates on most UVC cams.
+        # MJPG allows high resolutions 
         self.cap.set(cv2.CAP_PROP_FOURCC, cv2.VideoWriter_fourcc(*"MJPG"))
         self.cap.set(cv2.CAP_PROP_FRAME_WIDTH, REQUEST_W)
         self.cap.set(cv2.CAP_PROP_FRAME_HEIGHT, REQUEST_H)
